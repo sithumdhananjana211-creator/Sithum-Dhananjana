@@ -6,7 +6,7 @@ A complete MySQL database system for property management, including data modelin
 # Project Overview
 This project is a complete MySQL database solution designed to manage rental properties, tenants, and financial transactions. It demonstrates a practical application of data modeling and SQL development.
 
-# Technical Refactoring (A+ Grade Work)
+# Technical Refactoring
 The primary focus of this version was **refactoring for efficiency**. 
 * I replaced traditional lookup tables with **MySQL ENUM types** for property statuses (`property_states`) and property types (`type_name`).
 * This approach ensures strict data integrity, preventing invalid entries and simplifying the query logic.
